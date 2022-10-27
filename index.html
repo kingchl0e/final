@@ -1,31 +1,66 @@
+
+ <h1>
+   <center>
+    i don't know what to do
+    </center>
+  </h1>
+
 <div class="pixelart"></div>
+  
    <style type="text/css">
-   	 .grid-container {
+   	 
+     
+     .grid-container {
   			display: grid;
-        grid-template-columns: 800px 400px 800px 400px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   			justify-content: center;
        
      }
+    
      .item-a {
-  			grid-column-start: 2;
- 				grid-column-end: five;
+       	justify-content: start;
+  			grid-column-start: 1;
+ 				grid-column-end: 2;
        	width: 1px;
         height: 1px;
-        transform: scale(10);
+        transform: scale(25);
         background: transparent;
-        box-shadow: 8px 5px #0b0a0b, 9px 5px #0b0a0b, 10px 5px #0b0a0b, 11px 5px #0b0a0b, 12px 5px #0b0a0b, 13px 5px #0b0a0b, 14px 5px #0b0a0b, 15px 5px #0b0a0b, 16px 5px #0b0a0b, 17px 5px #0b0a0b, 18px 5px #0b0a0b, 19px 5px #0b0a0b, 20px 5px #0b0a0b, 21px 5px #0b0a0b, 22px 5px #0b0a0b, 23px 5px #0b0a0b, 24px 5px #0b0a0b, 25px 5px #0b0a0b, 26px 5px #0b0a0b, 27px 5px #0b0a0b, 28px 5px #0b0a0b, 29px 5px #0b0a0b, 30px 5px #0b0a0b, 8px 6px #0b0a0b, 30px 6px #0b0a0b, 8px 7px #0b0a0b, 10px 7px #0b0a0b, 11px 7px #0b0a0b, 12px 7px #0b0a0b, 13px 7px #0b0a0b, 14px 7px #0b0a0b, 15px 7px #0b0a0b, 16px 7px #0b0a0b, 17px 7px #0b0a0b, 18px 7px #0b0a0b, 19px 7px #0b0a0b, 20px 7px #0b0a0b, 21px 7px #0b0a0b, 22px 7px #0b0a0b, 23px 7px #0b0a0b, 24px 7px #0b0a0b, 25px 7px #0b0a0b, 26px 7px #0b0a0b, 27px 7px #0b0a0b, 28px 7px #0b0a0b, 30px 7px #0b0a0b, 8px 8px #0b0a0b, 10px 8px #0b0a0b, 28px 8px #0b0a0b, 30px 8px #0b0a0b, 8px 9px #0b0a0b, 10px 9px #0b0a0b, 12px 9px #0b0a0b, 13px 9px #0b0a0b, 14px 9px #0b0a0b, 15px 9px #0b0a0b, 16px 9px #0b0a0b, 17px 9px #0b0a0b, 18px 9px #0b0a0b, 19px 9px #0b0a0b, 20px 9px #0b0a0b, 21px 9px #0b0a0b, 22px 9px #0b0a0b, 23px 9px #0b0a0b, 24px 9px #0b0a0b, 25px 9px #0b0a0b, 26px 9px #0b0a0b, 28px 9px #0b0a0b, 30px 9px #0b0a0b, 8px 10px #0b0a0b, 10px 10px #0b0a0b, 12px 10px #0b0a0b, 26px 10px #0b0a0b, 28px 10px #0b0a0b, 30px 10px #0b0a0b, 8px 11px #0b0a0b, 10px 11px #0b0a0b, 12px 11px #0b0a0b, 14px 11px #0b0a0b, 15px 11px #0b0a0b, 16px 11px #0b0a0b, 17px 11px #0b0a0b, 18px 11px #0b0a0b, 19px 11px #0b0a0b, 20px 11px #0b0a0b, 21px 11px #0b0a0b, 22px 11px #0b0a0b, 23px 11px #0b0a0b, 24px 11px #0b0a0b, 26px 11px #0b0a0b, 28px 11px #0b0a0b, 30px 11px #0b0a0b, 8px 12px #0b0a0b, 10px 12px #0b0a0b, 12px 12px #0b0a0b, 14px 12px #0b0a0b, 24px 12px #0b0a0b, 26px 12px #0b0a0b, 28px 12px #0b0a0b, 30px 12px #0b0a0b, 8px 13px #0b0a0b, 10px 13px #0b0a0b, 12px 13px #0b0a0b, 14px 13px #0b0a0b, 16px 13px #0b0a0b, 17px 13px #0b0a0b, 18px 13px #0b0a0b, 19px 13px #0b0a0b, 20px 13px #0b0a0b, 21px 13px #0b0a0b, 22px 13px #0b0a0b, 24px 13px #0b0a0b, 26px 13px #0b0a0b, 28px 13px #0b0a0b, 30px 13px #0b0a0b, 8px 14px #0b0a0b, 10px 14px #0b0a0b, 12px 14px #0b0a0b, 14px 14px #0b0a0b, 16px 14px #0b0a0b, 22px 14px #0b0a0b, 24px 14px #0b0a0b, 26px 14px #0b0a0b, 28px 14px #0b0a0b, 30px 14px #0b0a0b, 8px 15px #0b0a0b, 10px 15px #0b0a0b, 12px 15px #0b0a0b, 14px 15px #0b0a0b, 16px 15px #0b0a0b, 18px 15px #0b0a0b, 19px 15px #0b0a0b, 20px 15px #0b0a0b, 22px 15px #0b0a0b, 24px 15px #0b0a0b, 26px 15px #0b0a0b, 28px 15px #0b0a0b, 30px 15px #0b0a0b, 8px 16px #0b0a0b, 10px 16px #0b0a0b, 12px 16px #0b0a0b, 14px 16px #0b0a0b, 16px 16px #0b0a0b, 18px 16px #0b0a0b, 20px 16px #0b0a0b, 22px 16px #0b0a0b, 24px 16px #0b0a0b, 26px 16px #0b0a0b, 28px 16px #0b0a0b, 30px 16px #0b0a0b, 8px 17px #0b0a0b, 10px 17px #0b0a0b, 12px 17px #0b0a0b, 14px 17px #0b0a0b, 16px 17px #0b0a0b, 18px 17px #0b0a0b, 20px 17px #0b0a0b, 22px 17px #0b0a0b, 24px 17px #0b0a0b, 26px 17px #0b0a0b, 28px 17px #0b0a0b, 30px 17px #0b0a0b, 8px 18px #0b0a0b, 10px 18px #0b0a0b, 12px 18px #0b0a0b, 14px 18px #0b0a0b, 16px 18px #0b0a0b, 18px 18px #0b0a0b, 19px 18px #0b0a0b, 20px 18px #0b0a0b, 22px 18px #0b0a0b, 24px 18px #0b0a0b, 26px 18px #0b0a0b, 28px 18px #0b0a0b, 30px 18px #0b0a0b, 8px 19px #0b0a0b, 10px 19px #0b0a0b, 12px 19px #0b0a0b, 14px 19px #0b0a0b, 16px 19px #0b0a0b, 22px 19px #0b0a0b, 24px 19px #0b0a0b, 26px 19px #0b0a0b, 28px 19px #0b0a0b, 30px 19px #0b0a0b, 8px 20px #0b0a0b, 10px 20px #0b0a0b, 12px 20px #0b0a0b, 14px 20px #0b0a0b, 16px 20px #0b0a0b, 17px 20px #0b0a0b, 18px 20px #0b0a0b, 19px 20px #0b0a0b, 20px 20px #0b0a0b, 21px 20px #0b0a0b, 22px 20px #0b0a0b, 24px 20px #0b0a0b, 26px 20px #0b0a0b, 28px 20px #0b0a0b, 30px 20px #0b0a0b, 8px 21px #0b0a0b, 10px 21px #0b0a0b, 12px 21px #0b0a0b, 14px 21px #0b0a0b, 24px 21px #0b0a0b, 26px 21px #0b0a0b, 28px 21px #0b0a0b, 30px 21px #0b0a0b, 8px 22px #0b0a0b, 10px 22px #0b0a0b, 12px 22px #0b0a0b, 14px 22px #0b0a0b, 15px 22px #0b0a0b, 16px 22px #0b0a0b, 17px 22px #0b0a0b, 18px 22px #0b0a0b, 19px 22px #0b0a0b, 20px 22px #0b0a0b, 21px 22px #0b0a0b, 22px 22px #0b0a0b, 23px 22px #0b0a0b, 24px 22px #0b0a0b, 26px 22px #0b0a0b, 28px 22px #0b0a0b, 30px 22px #0b0a0b, 8px 23px #0b0a0b, 10px 23px #0b0a0b, 12px 23px #0b0a0b, 26px 23px #0b0a0b, 28px 23px #0b0a0b, 30px 23px #0b0a0b, 8px 24px #0b0a0b, 10px 24px #0b0a0b, 12px 24px #0b0a0b, 13px 24px #0b0a0b, 14px 24px #0b0a0b, 15px 24px #0b0a0b, 16px 24px #0b0a0b, 17px 24px #0b0a0b, 18px 24px #0b0a0b, 19px 24px #0b0a0b, 20px 24px #0b0a0b, 21px 24px #0b0a0b, 22px 24px #0b0a0b, 23px 24px #0b0a0b, 24px 24px #0b0a0b, 25px 24px #0b0a0b, 26px 24px #0b0a0b, 28px 24px #0b0a0b, 30px 24px #0b0a0b, 8px 25px #0b0a0b, 10px 25px #0b0a0b, 28px 25px #0b0a0b, 30px 25px #0b0a0b, 8px 26px #0b0a0b, 10px 26px #0b0a0b, 11px 26px #0b0a0b, 12px 26px #0b0a0b, 13px 26px #0b0a0b, 14px 26px #0b0a0b, 15px 26px #0b0a0b, 16px 26px #0b0a0b, 17px 26px #0b0a0b, 18px 26px #0b0a0b, 19px 26px #0b0a0b, 20px 26px #0b0a0b, 21px 26px #0b0a0b, 22px 26px #0b0a0b, 23px 26px #0b0a0b, 24px 26px #0b0a0b, 25px 26px #0b0a0b, 26px 26px #0b0a0b, 27px 26px #0b0a0b, 28px 26px #0b0a0b, 30px 26px #0b0a0b, 8px 27px #0b0a0b, 30px 27px #0b0a0b, 8px 28px #0b0a0b, 9px 28px #0b0a0b, 10px 28px #0b0a0b, 11px 28px #0b0a0b, 12px 28px #0b0a0b, 13px 28px #0b0a0b, 14px 28px #0b0a0b, 15px 28px #0b0a0b, 16px 28px #0b0a0b, 17px 28px #0b0a0b, 18px 28px #0b0a0b, 19px 28px #0b0a0b, 20px 28px #0b0a0b, 21px 28px #0b0a0b, 22px 28px #0b0a0b, 23px 28px #0b0a0b, 24px 28px #0b0a0b, 25px 28px #0b0a0b, 26px 28px #0b0a0b, 27px 28px #0b0a0b, 28px 28px #0b0a0b, 29px 28px #0b0a0b, 30px 28px #0b0a0b;
+        box-shadow: 1px 0px #000000, 2px 0px #000000, 3px 0px #000000, 4px 0px #000000, 5px 0px #000000, 6px 0px #000000, 7px 0px #000000, 8px 0px #000000, 9px 0px #000000, 10px 0px #000000, 11px 0px #000000, 12px 0px #000000, 13px 0px #000000, 14px 0px #000000, 15px 0px #000000, 1px 1px #000000, 15px 1px #000000, 1px 2px #000000, 3px 2px #000000, 4px 2px #000000, 5px 2px #000000, 6px 2px #000000, 7px 2px #000000, 8px 2px #000000, 9px 2px #000000, 10px 2px #000000, 11px 2px #000000, 12px 2px #000000, 13px 2px #000000, 15px 2px #000000, 1px 3px #000000, 3px 3px #000000, 13px 3px #000000, 15px 3px #000000, 1px 4px #000000, 3px 4px #000000, 5px 4px #000000, 6px 4px #000000, 7px 4px #000000, 8px 4px #000000, 9px 4px #000000, 10px 4px #000000, 11px 4px #000000, 13px 4px #000000, 15px 4px #000000, 1px 5px #000000, 3px 5px #000000, 5px 5px #000000, 11px 5px #000000, 13px 5px #000000, 15px 5px #000000, 1px 6px #000000, 3px 6px #000000, 5px 6px #000000, 7px 6px #000000, 8px 6px #000000, 9px 6px #000000, 11px 6px #000000, 13px 6px #000000, 15px 6px #000000, 1px 7px #000000, 3px 7px #000000, 5px 7px #000000, 7px 7px #000000, 9px 7px #000000, 11px 7px #000000, 13px 7px #000000, 15px 7px #000000, 1px 8px #000000, 3px 8px #000000, 5px 8px #000000, 7px 8px #000000, 9px 8px #000000, 11px 8px #000000, 13px 8px #000000, 15px 8px #000000, 1px 9px #000000, 3px 9px #000000, 5px 9px #000000, 7px 9px #000000, 8px 9px #000000, 9px 9px #000000, 11px 9px #000000, 13px 9px #000000, 15px 9px #000000, 1px 10px #000000, 3px 10px #000000, 5px 10px #000000, 11px 10px #000000, 13px 10px #000000, 15px 10px #000000, 1px 11px #000000, 3px 11px #000000, 5px 11px #000000, 6px 11px #000000, 7px 11px #000000, 8px 11px #000000, 9px 11px #000000, 10px 11px #000000, 11px 11px #000000, 13px 11px #000000, 15px 11px #000000, 1px 12px #000000, 3px 12px #000000, 13px 12px #000000, 15px 12px #000000, 1px 13px #000000, 3px 13px #000000, 4px 13px #000000, 5px 13px #000000, 6px 13px #000000, 7px 13px #000000, 8px 13px #000000, 9px 13px #000000, 10px 13px #000000, 11px 13px #000000, 12px 13px #000000, 13px 13px #000000, 15px 13px #000000, 1px 14px #000000, 15px 14px #000000, 1px 15px #000000, 2px 15px #000000, 3px 15px #000000, 4px 15px #000000, 5px 15px #000000, 6px 15px #000000, 7px 15px #000000, 8px 15px #000000, 9px 15px #000000, 10px 15px #000000, 11px 15px #000000, 12px 15px #000000, 13px 15px #000000, 14px 15px #000000, 15px 15px #000000;
 		}
-
      
-     		
-		.one {
- 			 grid-column: span 2;
-  		 grid-row: span 2;
+       
+     .item-b {
+  			grid-column-start: 3;
+ 				grid-column-end: 4;
+       	justify-content: center;
+       	width: 1px;
+        height: 1px;
+        transform: scale(25);
+        background: transparent;
+        box-shadow: 1px 0px #000000, 2px 0px #000000, 3px 0px #000000, 4px 0px #000000, 5px 0px #000000, 6px 0px #000000, 7px 0px #000000, 8px 0px #000000, 9px 0px #000000, 10px 0px #000000, 11px 0px #000000, 12px 0px #000000, 13px 0px #000000, 14px 0px #000000, 15px 0px #000000, 1px 1px #000000, 15px 1px #000000, 1px 2px #000000, 3px 2px #000000, 4px 2px #000000, 5px 2px #000000, 6px 2px #000000, 7px 2px #000000, 8px 2px #000000, 9px 2px #000000, 10px 2px #000000, 11px 2px #000000, 12px 2px #000000, 13px 2px #000000, 15px 2px #000000, 1px 3px #000000, 3px 3px #000000, 13px 3px #000000, 15px 3px #000000, 1px 4px #000000, 3px 4px #000000, 5px 4px #000000, 6px 4px #000000, 7px 4px #000000, 8px 4px #000000, 9px 4px #000000, 10px 4px #000000, 11px 4px #000000, 13px 4px #000000, 15px 4px #000000, 1px 5px #000000, 3px 5px #000000, 5px 5px #000000, 11px 5px #000000, 13px 5px #000000, 15px 5px #000000, 1px 6px #000000, 3px 6px #000000, 5px 6px #000000, 7px 6px #000000, 8px 6px #000000, 9px 6px #000000, 11px 6px #000000, 13px 6px #000000, 15px 6px #000000, 1px 7px #000000, 3px 7px #000000, 5px 7px #000000, 7px 7px #000000, 9px 7px #000000, 11px 7px #000000, 13px 7px #000000, 15px 7px #000000, 1px 8px #000000, 3px 8px #000000, 5px 8px #000000, 7px 8px #000000, 9px 8px #000000, 11px 8px #000000, 13px 8px #000000, 15px 8px #000000, 1px 9px #000000, 3px 9px #000000, 5px 9px #000000, 7px 9px #000000, 8px 9px #000000, 9px 9px #000000, 11px 9px #000000, 13px 9px #000000, 15px 9px #000000, 1px 10px #000000, 3px 10px #000000, 5px 10px #000000, 11px 10px #000000, 13px 10px #000000, 15px 10px #000000, 1px 11px #000000, 3px 11px #000000, 5px 11px #000000, 6px 11px #000000, 7px 11px #000000, 8px 11px #000000, 9px 11px #000000, 10px 11px #000000, 11px 11px #000000, 13px 11px #000000, 15px 11px #000000, 1px 12px #000000, 3px 12px #000000, 13px 12px #000000, 15px 12px #000000, 1px 13px #000000, 3px 13px #000000, 4px 13px #000000, 5px 13px #000000, 6px 13px #000000, 7px 13px #000000, 8px 13px #000000, 9px 13px #000000, 10px 13px #000000, 11px 13px #000000, 12px 13px #000000, 13px 13px #000000, 15px 13px #000000, 1px 14px #000000, 15px 14px #000000, 1px 15px #000000, 2px 15px #000000, 3px 15px #000000, 4px 15px #000000, 5px 15px #000000, 6px 15px #000000, 7px 15px #000000, 8px 15px #000000, 9px 15px #000000, 10px 15px #000000, 11px 15px #000000, 12px 15px #000000, 13px 15px #000000, 14px 15px #000000, 15px 15px #000000;
      }
      
+     .item-c {
+       justify-content: center;
+  			grid-column-start: 5;
+ 				grid-column-end: 6;
+       	width: 1px;
+        height: 1px;
+        transform: scale(25);
+        background: transparent;
+        box-shadow: 1px 0px #000000, 2px 0px #000000, 3px 0px #000000, 4px 0px #000000, 5px 0px #000000, 6px 0px #000000, 7px 0px #000000, 8px 0px #000000, 9px 0px #000000, 10px 0px #000000, 11px 0px #000000, 12px 0px #000000, 13px 0px #000000, 14px 0px #000000, 15px 0px #000000, 1px 1px #000000, 15px 1px #000000, 1px 2px #000000, 3px 2px #000000, 4px 2px #000000, 5px 2px #000000, 6px 2px #000000, 7px 2px #000000, 8px 2px #000000, 9px 2px #000000, 10px 2px #000000, 11px 2px #000000, 12px 2px #000000, 13px 2px #000000, 15px 2px #000000, 1px 3px #000000, 3px 3px #000000, 13px 3px #000000, 15px 3px #000000, 1px 4px #000000, 3px 4px #000000, 5px 4px #000000, 6px 4px #000000, 7px 4px #000000, 8px 4px #000000, 9px 4px #000000, 10px 4px #000000, 11px 4px #000000, 13px 4px #000000, 15px 4px #000000, 1px 5px #000000, 3px 5px #000000, 5px 5px #000000, 11px 5px #000000, 13px 5px #000000, 15px 5px #000000, 1px 6px #000000, 3px 6px #000000, 5px 6px #000000, 7px 6px #000000, 8px 6px #000000, 9px 6px #000000, 11px 6px #000000, 13px 6px #000000, 15px 6px #000000, 1px 7px #000000, 3px 7px #000000, 5px 7px #000000, 7px 7px #000000, 9px 7px #000000, 11px 7px #000000, 13px 7px #000000, 15px 7px #000000, 1px 8px #000000, 3px 8px #000000, 5px 8px #000000, 7px 8px #000000, 9px 8px #000000, 11px 8px #000000, 13px 8px #000000, 15px 8px #000000, 1px 9px #000000, 3px 9px #000000, 5px 9px #000000, 7px 9px #000000, 8px 9px #000000, 9px 9px #000000, 11px 9px #000000, 13px 9px #000000, 15px 9px #000000, 1px 10px #000000, 3px 10px #000000, 5px 10px #000000, 11px 10px #000000, 13px 10px #000000, 15px 10px #000000, 1px 11px #000000, 3px 11px #000000, 5px 11px #000000, 6px 11px #000000, 7px 11px #000000, 8px 11px #000000, 9px 11px #000000, 10px 11px #000000, 11px 11px #000000, 13px 11px #000000, 15px 11px #000000, 1px 12px #000000, 3px 12px #000000, 13px 12px #000000, 15px 12px #000000, 1px 13px #000000, 3px 13px #000000, 4px 13px #000000, 5px 13px #000000, 6px 13px #000000, 7px 13px #000000, 8px 13px #000000, 9px 13px #000000, 10px 13px #000000, 11px 13px #000000, 12px 13px #000000, 13px 13px #000000, 15px 13px #000000, 1px 14px #000000, 15px 14px #000000, 1px 15px #000000, 2px 15px #000000, 3px 15px #000000, 4px 15px #000000, 5px 15px #000000, 6px 15px #000000, 7px 15px #000000, 8px 15px #000000, 9px 15px #000000, 10px 15px #000000, 11px 15px #000000, 12px 15px #000000, 13px 15px #000000, 14px 15px #000000, 15px 15px #000000;
+     }
+     
+    
     </style>
 
-<div class="grid-container">
+	
+  <div class="grid-container"></div>
   <div class="item-a"></div>
-</div>
+  <div class="item-b"></div>
+  <div class="item-c"></div>
+ 
+    
+
+
 
